@@ -1,4 +1,4 @@
-package com.sum.tea
+package com.payphone.tea
 
 import org.junit.Test
 

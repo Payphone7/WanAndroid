@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewConfiguration
 import androidx.recyclerview.widget.*
 import com.scwang.smart.refresh.layout.util.SmartUtil.dp2px
-import com.payphone.framework.decoration.SumDividerItemDecoration
+import com.payphone.framework.decoration.DividerItemDecoration
 
 private var isLock = true
 
@@ -60,7 +60,7 @@ fun RecyclerView.divider(
     size: Int = 1,
     includeLast: Boolean = true
 ): RecyclerView {
-    val decoration = SumDividerItemDecoration(context, orientation)
+    val decoration = DividerItemDecoration(context, orientation)
     decoration.setDrawable(GradientDrawable().apply {
         setColor(color)
         shape = GradientDrawable.RECTANGLE

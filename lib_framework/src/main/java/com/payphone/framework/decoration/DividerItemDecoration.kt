@@ -37,7 +37,7 @@ import android.view.View
  * recyclerView.addItemDecoration(mDividerItemDecoration);
 </pre> *
  */
-class SumDividerItemDecoration(context: Context, orientation: Int) : ItemDecoration() {
+class DividerItemDecoration(context: Context, orientation: Int) : ItemDecoration() {
     /**
      * @return the [Drawable] for this divider.
      */

@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace 'com.payphone.lib_common'
+    namespace 'com.payphone.common'
 
     compileSdk rootProject.android.compileSdk
 

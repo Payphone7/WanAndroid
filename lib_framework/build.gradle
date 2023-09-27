@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.payphone.lib_framework'
+    namespace 'com.payphone.framework'
     compileSdk rootProject.android.compileSdk
 
     defaultConfig {

@@ -12,11 +12,11 @@ class XLogger {
     /**
      * 初始化xlog
      */
-    fun init(context: Application, isDebug: Boolean, logPath: String, namePrefix: String = "sumTea") {
+    fun init(context: Application, isDebug: Boolean, logPath: String, namePrefix: String = "payphone") {
         System.loadLibrary("c++_shared")
         System.loadLibrary("marsxlog")
 
-        val cachePath = context.filesDir.absolutePath + "sumTea/xlog"
+        val cachePath = context.filesDir.absolutePath + "payphone/xlog"
 
 //        val xlog = Xlog()
 //        xlog.apply {
