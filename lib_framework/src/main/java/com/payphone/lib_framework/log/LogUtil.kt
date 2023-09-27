@@ -1,4 +1,4 @@
-package com.sum.framework.log
+package com.payphone.lib_framework.log
 
 import android.app.Application
 import android.content.Context
@@ -6,7 +6,8 @@ import android.os.Build
 import android.util.DisplayMetrics
 import android.util.Log
 import android.view.WindowManager
-import com.sum.framework.utils.DeviceInfoUtils
+import com.payphone.lib_framework.utils.DeviceInfoUtils
+import com.payphone.lib_framework.log.XLogger
 
 /**
  *  API is the same to {@link android.util.Log}

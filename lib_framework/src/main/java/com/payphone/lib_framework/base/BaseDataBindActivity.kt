@@ -2,8 +2,8 @@ package com.payphone.lib_framework.base
 
 import android.view.LayoutInflater
 import androidx.viewbinding.ViewBinding
-import com.payphone.lib_framework.saveAs
-import com.payphone.lib_framework.saveAsUnChecked
+import com.payphone.lib_framework.ext.saveAs
+import com.payphone.lib_framework.ext.saveAsUnChecked
 import java.lang.reflect.ParameterizedType
 
 /**

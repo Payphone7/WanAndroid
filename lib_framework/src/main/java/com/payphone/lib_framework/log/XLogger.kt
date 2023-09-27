@@ -1,4 +1,4 @@
-package com.sum.framework.log
+package com.payphone.lib_framework.log
 
 import android.app.Application
 import android.util.Log
