@@ -1,7 +1,7 @@
 package com.payphone.common.holder
 
 import androidx.appcompat.widget.AppCompatImageView
-import com.payphone.framework.base.BaseViewHolder
+import com.payphone.banner.base.BaseViewHolder
 import com.payphone.common.model.Banner
 
 /**
